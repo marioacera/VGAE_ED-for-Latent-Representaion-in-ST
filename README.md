@@ -5,7 +5,7 @@ We present an alternative way of profiling cell or spots in Single Cell technolo
 
 Onthology profiling can help to capture anatomically meaninfull areas where mRNA count struggle to set the correct tissue borders.
 
-Here are presented two results that improve state of the art methods performance with an ARI metric of 0.578 and 0.588:
+Here are presented two results (VGAE_leiden plots, together with the ground truth annotated layers) that improve state of the art methods performance with an ARI metric of 0.578 and 0.588, respectively:
 
 
 ![show_Human_brain_leiden_regions_only_Graph_feat_noHVG](https://user-images.githubusercontent.com/56892292/134486112-9723f58a-7507-4f44-8753-7a2eb61040a9.png)
