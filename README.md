@@ -18,7 +18,8 @@ Refined clustering results on the DLPFC dataset are shown below, just highlight 
 
 Seems reasonable to highlight that our model retrieve a latent representation, and from that point the clustering is performed following the state of the art pipeline in Single Cell (computing communities from the graph built based on the latent representation), therefore the UMAP is notably usefulll to asses the quality of the results.
 
-On top of Onthology profiling, the flexibility that this model provides can be further exploited, in this case using a mixed metric for computing the adjacency matrix that define the graph structure in the VGAE. In order to help the model distinguishing tissue borders and transcriptomics gaps, we can bring in transcriptional information on the distance metric used to compute the input graph. It is shown below how it improves the model accuracy when combining a mixed distance metric and Onthology based profiling:
+On top of Onthology profiling, the flexibility that this model provides can be further exploited.
+For example we can use a mixed metric to compute the adjacency matrix that define the graph structure in the VGAE. In order to help the model distinguishing tissue borders and transcriptomics gaps, we can bring in transcriptional information on the distance metric used to compute the input graph. It is shown below how the model accuracy improves when using a mixed distance metric jointly with Onthology based profiling:
 
  - Based on mixed metric VGAE features from Ontology counts: ARI 0.675
  
